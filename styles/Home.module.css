@@ -83,7 +83,18 @@
 .logo {
   height: 1em;
 }
-
+ul.ANDREW-GIBIANSKY-markdown-body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 18px;
+  line-height: 1.8;
+  word-wrap: break-word;
+}
+.ANDREW-GIBIANSKY-markdown-body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 18px;
+  line-height: 1.8;
+  word-wrap: break-word;
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;

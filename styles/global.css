@@ -30,3 +30,62 @@ img {
   max-width: 100%;
   height: auto;
 }
+body > header .AndrewGibiansky-header h1 {
+  display: inline-block;
+  margin: 0;
+}
+body > header .AndrewGibiansky-header h1 {
+  font-size: 2.2em;
+  font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin-bottom: 0.6667em;
+}
+.ANDREW-GIBIANSKY-blog-archives article {
+  padding: 1em 0;
+  position: relative;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC) bottom left repeat-x;
+}
+/* .ANDREW-GIBIANSKY-blog-archives time {
+  position: absolute;
+  text-align: right;
+  left: 0em;
+  top: 1.8em;
+} */
+
+/* .ANDREW-GIBIANSKY-blog-archives time {
+  font-size: 0.9em;
+  line-height: 1.2em;
+} */
+
+.ANDREW-GIBIANSKY-blog-archives a.category,
+.ANDREW-GIBIANSKY-blog-archives time {
+  color: #aaa;
+}
+.ANDREW-GIBIANSKY-blog-archives {
+  display: flex;
+  align-items: center;
+}
+
+.ANDREW-GIBIANSKY-blog-archives h1 {
+  margin: 0; /* Reset margin if needed */
+}
+
+.ANDREW-GIBIANSKY-blog-archives time {
+  position: relative; /* Change to relative */
+  text-align: right;
+  margin-left: 1em; /* Space between h1 and time */
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+
+.ANDREW-GIBIANSKY-blog-archives a.category,
+.ANDREW-GIBIANSKY-blog-archives time {
+  color: #aaa;
+}
+ul.ANDREW-GIBIANSKY-markdown-body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 18px;
+  line-height: 1.8;
+  word-wrap: break-word;
+}

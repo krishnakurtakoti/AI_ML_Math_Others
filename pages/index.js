@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+// import '../styles/global.css'; // Adjust the path as necessary
 
 export default function Home() {
   return (
@@ -17,7 +18,96 @@ export default function Home() {
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
         </p>
+        <h1 class="AndrewGibiansky-header">
+            <a href="https://andrew.gibiansky.com/">
+                Andrew Gibiansky
+                &nbsp;&nbsp;::&nbsp;
+                &nbsp;<em>Math</em>&nbsp;→&nbsp;[<strong>Code</strong>]
+            </a>
+        </h1>
+              {/* <article class="ANDREW-GIBIANSKY-blog-archives">
+          <h1>
+              <a href="https://andrew.gibiansky.com/blog/machine-learning/baidu-allreduce">Bringing HPC Techniques to Deep Learning</a>
+          </h1>
 
+          <time datetime="Tuesday, February 21, 2017" pubdate="">
+              Feb 21
+          </time>
+
+          <footer>
+              <span class="categories">
+                  Posted in <a href="https://andrew.gibiansky.com/blog/categories/machine-learning">machine-learning</a>
+              </span>
+          </footer>
+      </article> */}
+
+
+
+      <article class="ANDREW-GIBIANSKY-blog-archives">
+          <h1>
+              <a href="https://andrew.gibiansky.com/blog/machine-learning/baidu-allreduce">Bringing HPC Techniques to Deep Learning</a>
+          </h1>
+
+          <time datetime="Tuesday, February 21, 2017" pubdate="">
+              Feb 21
+          </time>
+
+          <footer>
+              <span class="categories">
+                  Posted in <a class="category" href="https://andrew.gibiansky.com/blog/categories/machine-learning">machine-learning</a>
+              </span>
+          </footer>
+      </article>
+
+      <article class="ANDREW-GIBIANSKY-blog-archives">
+          <h1>
+              <a href="https://andrew.gibiansky.com/blog/machine-learning/nram-2/">NRAM: Theano Implementation</a>
+          </h1>
+
+          <time datetime="Tuesday, June 5, 2016" pubdate="">
+              Jun 16
+          </time>
+
+          <footer>
+              <span class="categories">
+                  Posted in <a class="category" href="https://andrew.gibiansky.com/blog/categories/machine-learning">machine-learning</a>
+              </span>
+          </footer>
+      </article>
+      <a href="https://github.com/gibiansky/experiments">https://github.com/gibiansky/experiments</a>
+      <p dir="auto"><strong>Projects</strong>:</p>
+
+      {/* <ul dir="auto">
+        <li>lbm/ - Simple implementation of the Lattice Boltzmann method; described a little bit on one of my blog posts.</li>
+        <li>fluids/ - Experiments with a fluid simulation method known as Smoothed Particle Hydrodynamics. Includes a complete description of the simulation method, starting from fundamental fluid mechanics to derive the Navier-Stokes equations, followed by a derivation of the simulation steps from the Navier-Stokes equations. Also includes a very quick and dirty Java implementation of the simulation method. Also available as a pair of <a href="http://www.gibiansky.com/2011/07/computational-fluid-dynamics.html" rel="nofollow">blog posts</a> for more detail.</li>
+        <li>morph/ - Experiments with simple image interpolation / morphing. Take a look at <a href="http://www.gibiansky.com/2011/07/image-morphing.html" rel="nofollow">the blog post</a> for more detail.</li>
+        <li>neural-network/ - An implementation of a feed-forward neural network in MATLAB for handwritten digit recognition. For information on neural networks, take a look at the following <a href="http://www.gibiansky.com/2012/08/machine-learning-neural-networks.html" rel="nofollow">explanation</a>.</li>
+        <li>cpu/ - A toy CPU created in Verilog for use with a Cyclone II Altera Starter Kit FPGA board. The CPU executes (compiled versions of) a custom MIPS-like assembly language; the compiler for this language and the description are in simple/.</li>
+        <li>simple/ - A toy C-like language called "Simple", which compiles to a custom MIPS-like assembly, which can execute on a custom CPU for a Cyclone II FPGA board.</li>
+        <li>quadcopter/ - A detailed description of quadcopter motion dynamics and the control used for quadcopter stabilization. Includes a simulation and movie.</li>
+        </ul> */}
+
+        <ul className={styles.card} class="ANDREW-GIBIANSKY-markdown-body" dir="auto">
+            <li>lbm/ - Simple implementation of the Lattice Boltzmann method; described a little bit on one of my blog posts.</li>
+            <li>fluids/ - Experiments with a fluid simulation method known as Smoothed Particle Hydrodynamics. Includes a complete description of the simulation method, starting from fundamental fluid mechanics to derive the Navier-Stokes equations, followed by a derivation of the simulation steps from the Navier-Stokes equations. Also includes a very quick and dirty Java implementation of the simulation method. Also available as a pair of <a href="http://www.gibiansky.com/2011/07/computational-fluid-dynamics.html" rel="nofollow">blog posts</a> for more detail.</li>
+            <li>morph/ - Experiments with simple image interpolation / morphing. Take a look at <a href="http://www.gibiansky.com/2011/07/image-morphing.html" rel="nofollow">the blog post</a> for more detail.</li>
+            <li>neural-network/ - An implementation of a feed-forward neural network in MATLAB for handwritten digit recognition. For information on neural networks, take a look at the following <a href="http://www.gibiansky.com/2012/08/machine-learning-neural-networks.html" rel="nofollow">explanation</a>.</li>
+            <li>cpu/ - A toy CPU created in Verilog for use with a Cyclone II Altera Starter Kit FPGA board. The CPU executes (compiled versions of) a custom MIPS-like assembly language; the compiler for this language and the description are in simple/.</li>
+            <li>simple/ - A toy C-like language called "Simple", which compiles to a custom MIPS-like assembly, which can execute on a custom CPU for a Cyclone II FPGA board.</li>
+            <li>quadcopter/ - A detailed description of quadcopter motion dynamics and the control used for quadcopter stabilization. Includes a simulation and movie.</li>
+        </ul>
+        {/* Wrap the ul in a div with the card class */}
+        <div className={styles.card}>
+          <ul className={styles['ANDREW-GIBIANSKY-markdown-body']} dir="auto">
+            <li>lbm/ - Simple implementation of the Lattice Boltzmann method; described a little bit on one of my blog posts.</li>
+            <li>fluids/ - Experiments with a fluid simulation method known as Smoothed Particle Hydrodynamics. Includes a complete description of the simulation method, starting from fundamental fluid mechanics to derive the Navier-Stokes equations, followed by a derivation of the simulation steps from the Navier-Stokes equations. Also includes a very quick and dirty Java implementation of the simulation method. Also available as a pair of <a href="http://www.gibiansky.com/2011/07/computational-fluid-dynamics.html" rel="nofollow">blog posts</a> for more detail.</li>
+            <li>morph/ - Experiments with simple image interpolation / morphing. Take a look at <a href="http://www.gibiansky.com/2011/07/image-morphing.html" rel="nofollow">the blog post</a> for more detail.</li>
+            <li>neural-network/ - An implementation of a feed-forward neural network in MATLAB for handwritten digit recognition. For information on neural networks, take a look at the following <a href="http://www.gibiansky.com/2012/08/machine-learning-neural-networks.html" rel="nofollow">explanation</a>.</li>
+            <li>cpu/ - A toy CPU created in Verilog for use with a Cyclone II Altera Starter Kit FPGA board. The CPU executes (compiled versions of) a custom MIPS-like assembly language; the compiler for this language and the description are in simple/.</li>
+            <li>simple/ - A toy C-like language called "Simple", which compiles to a custom MIPS-like assembly, which can execute on a custom CPU for a Cyclone II FPGA board.</li>
+            <li>quadcopter/ - A detailed description of quadcopter motion dynamics and the control used for quadcopter stabilization. Includes a simulation and movie.</li>
+          </ul>
+        </div>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Documentation &rarr;</h3>
