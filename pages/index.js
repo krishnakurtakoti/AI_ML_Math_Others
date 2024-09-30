@@ -74,6 +74,22 @@ export default function Home() {
               </span>
           </footer>
       </article>
+
+      <article class="ANDREW-GIBIANSKY-blog-archives">
+          <h1>
+              <a href="https://andrew.gibiansky.com/blog/mathematics/cool-linear-algebra-singular-value-decomposition/">Cool Linear Algebra: Singular Value Decomposition</a>
+          </h1>
+
+          <time datetime="Wednesday, May 29, 2013" pubdate="">
+           May 29, 2013
+          </time>
+
+          <footer>
+              <span class="categories">
+                  Posted in <a class="category" href="https://andrew.gibiansky.com/blog/categories/machine-learning">machine-learning</a>
+              </span>
+          </footer>
+      </article>
       <a href="https://github.com/gibiansky/experiments">https://github.com/gibiansky/experiments</a>
       <p dir="auto"><strong>Projects</strong>:</p>
 
