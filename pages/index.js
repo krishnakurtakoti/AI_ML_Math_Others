@@ -18,7 +18,193 @@ export default function Home() {
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
         </p>
-        <h1 class="AndrewGibiansky-header">
+
+        <h3>In this article</h3>
+        <ul>
+          <li>
+            <a href="#AndrewGibiansky-header-link" style={{ textDecoration: 'underline' }}>
+            Andrew Gibiansky   ::   Math → [Code]
+            </a>
+            <ul>
+                    <li>
+                        <strong>Bringing HPC Techniques to Deep Learning</strong> 21/2/2017
+                    </li>
+                    <li>
+                        <strong>NRAM: Theano Implementation</strong> 5/6/2016
+                    </li>
+                    <li>
+                        <strong>Cool Linear Algebra: Singular Value Decomposition</strong> 29/5/2013
+                    </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#jeremy-jordan-blog-archives" style={{ textDecoration: 'underline' }}>
+            Jeremy Jordan - Thoughts, ideas, and new things I've learned.
+            </a>
+            <ul>
+                    <li>
+                        <strong>Understanding the Transformer architecture for neural networks</strong> 6/5/2023
+                    </li>
+                   
+            </ul>
+          </li>
+          <li>
+            <a href="#hi-Eugene-Yan" style={{ textDecoration: 'underline' }}>
+            Eugene Yan - I design, build, and operate machine learning systems that serve customers at scale. Currently, I&#39;m a Senior Applied Scientist at Amazon. Outside of work, I also...
+            </a>
+            <ul>
+                    <li>
+                        <strong>Don't Mock Machine Learning Models In Unit Tests</strong> 25/2/2024
+                    </li>
+                    <li>
+                        <strong>Text-to-Image: Diffusion, Text Conditioning, Guidance, Latent Space</strong> 27/11/2022
+                    </li>
+                    
+            </ul>
+          </li>
+        </ul>
+
+
+
+        {/* <article class="jeremy-jordan-blog-archives">
+        </article> */}
+
+        {/* <article class="jeremy-jordan-post-card post tag-data-science no-image">
+
+<div class="jeremy-jordan-post-card-content">
+
+    <a class="jeremy-jordan-post-card-content-link" href="https://www.jeremyjordan.me/transformer-architecture/">
+
+        <header class="jeremy-jordan-post-card-header">
+            <div class="jeremy-jordan-post-card-primary-tag">Data Science</div>
+            <h2 class="jeremy-jordan-post-card-title">Understanding the Transformer architecture for neural networks</h2>
+        </header>
+
+        <section class="jeremy-jordan-post-card-excerpt">
+            <p>The attention mechanism allows us to merge a variable-length sequence of vectors into a fixed-size context vector. What if we could use this mechanism to entirely replace recurrence for sequential modeling? This blog post covers the Transformer architecture which explores such an approach.</p>
+        </section>
+
+    </a>
+
+    <footer class="jeremy-jordan-post-card-meta">
+        <ul class="jeremy-jordan-author-list">
+            <li class="jeremy-jordan-author-list-item">
+
+                <div class="jeremy-jordan-author-name-tooltip">
+                    Jeremy Jordan
+                </div>
+
+                <a href="/author/jeremy/" class="jeremy-jordan-static-avatar">
+                    <img class="jeremy-jordan-author-profile-image" src="https://www.jeremyjordan.me/content/images/size/w100/2018/03/headshot-small.jpeg" alt="Jeremy Jordan"></img>
+                </a>
+            </li>
+        </ul>
+        <div class="jeremy-jordan-post-card-byline-content">
+            <span><a href="/author/jeremy/" class="jeremy-jordan">Jeremy Jordan</a></span>
+            <span class="jeremy-jordan-post-card-byline-date"><time datetime="2023-05-06">6 May 2023</time> <span class="bull">•</span> 16 min read</span>
+        </div>
+    </footer>
+
+</div>
+
+</article> */}
+
+
+
+
+
+        <article id="jeremy-jordan-blog-archives" class="jeremy-jordan-post-card post tag-data-science no-image no-image">
+
+            <div class="jeremy-jordan-post-card-content ">
+
+                <a class="post-card-content-link jeremy-jordan" href="https://www.jeremyjordan.me/transformer-architecture/">
+
+                    <header class="post-card-header jeremy-jordan">
+                        <div class="post-card-primary-tag jeremy-jordan">Data Science</div>
+                        <h2 class="post-card-title jeremy-jordan">Understanding the Transformer architecture for neural networks</h2>
+                    </header>
+
+                    <section class="post-card-excerpt jeremy-jordan">
+                        <p>The attention mechanism allows us to merge a variable-length sequence of vectors into a fixed-size context vector. What if we could use this mechanism to entirely replace recurrence for sequential modeling? This blog post covers the Transformer architecture which explores such an approach.</p>
+                    </section>
+
+                </a>
+
+                <footer class="post-card-meta jeremy-jordan">
+                    <ul class="author-list jeremy-jordan">
+                        <li class="author-list-item jeremy-jordan">
+
+                            <div class="author-name-tooltip jeremy-jordan">
+                                Jeremy Jordan
+                            </div>
+
+                            <a href="/author/jeremy/" class="static-avatar jeremy-jordan">
+                                <img class="author-profile-image jeremy-jordan" src="https://www.jeremyjordan.me/content/images/size/w100/2018/03/headshot-small.jpeg" alt="Jeremy Jordan"></img>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="post-card-byline-content jeremy-jordan">
+                        <span><a href="/author/jeremy/" class="jeremy-jordan">Jeremy Jordan</a></span>
+                        <span class="post-card-byline-date jeremy-jordan"><time datetime="2023-05-06">6 May 2023</time> <span class="bull">•</span> 16 min read</span>
+                    </div>
+                </footer>
+
+            </div>
+
+            </article>
+        
+       
+            <div id="hi-Eugene-Yan"><h1>Hi, I'm Eugene Yan, <span 
+            //style="opacity: 0.895078;
+            // "
+            >an ML engineer.</span></h1></div>
+
+        <article class="Eugene-Yan-blog-archives">
+           
+
+
+            <div class="Eugene-Yan-cp-listing">
+              <h4 class="cp-title"><a href="https://eugeneyan.com/writing/unit-testing-ml/" title="Don't Mock Machine Learning Models In Unit Tests">Don't Mock Machine Learning Models In Unit Tests</a></h4>
+              <p class="cp-desc">How unit testing machine learning code differs from typical software practices</p>
+              <p class="cp-date">25 Feb 2024 &nbsp;·&nbsp;
+              6 min &nbsp;·&nbsp;
+              <a class="Eugene-Yan-tag" href="/tag/machinelearning/">machinelearning</a>
+              <a class="Eugene-Yan-tag" href="/tag/engineering/">engineering</a>
+              </p>
+              </div>
+              <h2 id="further-reading">Further reading<a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="" href="#further-reading" // </h2>style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"
+              ></a></h2>
+              <ul>
+                  <li><a href="https://eugeneyan.com/writing/testing-ml/" target="_blank">How to Test Machine Learning Code and Systems</a></li>
+                  <li><a href="https://eugeneyan.com/writing/testing-pipelines/" target="_blank">Writing Robust Tests for Data &amp; Machine Learning Pipelines</a></li>
+                  <li><a href="https://www.jeremyjordan.me/testing-ml/" target="_blank">Effective Testing for Machine Learning Systems</a></li>
+                  <li><a href="https://krokotsch.eu/posts/deep-learning-unit-tests/" target="_blank">How to Trust Your Deep Learning Code</a></li>
+                  <li><a href="https://karpathy.github.io/2019/04/25/recipe/" target="_blank">A Recipe for Training Neural Networks</a></li>
+                  <li><a href="https://theaisummer.com/unit-test-deep-learning/" target="_blank">How to Unit Test Deep Learning</a></li>
+                  <li><a href="https://microsoft.github.io/code-with-engineering-playbook/machine-learning/ml-testing/" target="_blank">Testing Data Science and MLOps Code</a></li>
+                  </ul>
+
+
+
+                  <div class="Eugene-Yan-cp-listing">
+                <h4 class="cp-title">
+                    <a href="https://eugeneyan.com/writing/text-to-image/" title="Text-to-Image: Diffusion, Text Conditioning, Guidance, Latent Space">
+                        Text-to-Image: Diffusion, Text Conditioning, Guidance, Latent Space
+                    </a>
+                </h4>
+                <p class="cp-desc">The fundamentals of text-to-image generation, relevant papers, and experimenting with DDPM.</p>
+                <p class="cp-date">
+                    27 Nov 2022 &nbsp;·&nbsp; 19 min &nbsp;·&nbsp; 
+                    <span class="Eugene-Yan-tag">Eugene Yan</span>
+                    <a class="Eugene-Yan-tag" href="/tag/deeplearning/">deeplearning</a>
+                    <a class="Eugene-Yan-tag" href="/tag/nlp/">nlp</a>
+                    <a class="Eugene-Yan-tag" href="/tag/survey/">survey</a>
+                </p>
+            </div>
+
+          </article>
+
+        <h1 id="AndrewGibiansky-header-link" class="AndrewGibiansky-header">
             <a href="https://andrew.gibiansky.com/">
                 Andrew Gibiansky
                 &nbsp;&nbsp;::&nbsp;
