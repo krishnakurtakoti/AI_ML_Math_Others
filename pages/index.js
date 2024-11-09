@@ -62,6 +62,20 @@ export default function Home() {
                     
             </ul>
           </li>
+          <li>
+            <a href="#davidstutz-blog-archives" style={{ textDecoration: 'underline' }}>
+            David Stutz - I am a research scientist at Google DeepMind interested in making generative AI safe for everyone to use through research on uncertainty estimation, watermarking, adversarial robustness, or out-of-distribution detection, among other topics. Previously, I focused on computer vision, including 3D reconstruction and image segmentation.
+            </a>
+            <ul>
+                    <li>
+                        <strong>ArXiv Pre-Print - Adversarial Training against Location-Optimized Adversarial Patches</strong> 25/5/2020
+                    </li>
+                    <li>
+                        <strong>Implementing Custom PyTorch Tensor Operations in C and CUDA</strong> 20/04/2020
+                    </li>
+                    
+            </ul>
+          </li>
         </ul>
 
 
@@ -261,6 +275,86 @@ export default function Home() {
           </footer>
       </article>
 
+
+      <article id="davidstutz-blog-archives" class="davidstutz-blog-archives">
+      <div className="col-md-4">
+          <h1>
+              <a href="https://davidstutz.de/" className="nostyle">
+                  DAVID<span style={{ marginRight: '6px' }}></span>STUTZ
+              </a>
+          </h1>
+      </div>
+
+      <p>
+          I am a <b>research scientist at <a href="https://www.deepmind.com/" target="_blank" rel="noopener">Google DeepMind</a></b> interested in <b>making generative AI safe for everyone to use</b> through research on uncertainty estimation, watermarking, adversarial robustness, or out-of-distribution detection, among other topics. Previously, I focused on computer vision, including 3D reconstruction and image segmentation.
+      </p>
+      <div class="davidstutz-article-container">
+    <div class="davidstutz-article">
+        <div class="davidstutz-article-date">
+            APRIL2020
+        </div>
+        <div class="davidstutz-article-above-header">
+            <h3>ARTICLE</h3>
+        </div>
+        <div class="davidstutz-article-header">
+            <h2>
+                <a href="https://davidstutz.de/implementing-custom-pytorch-tensor-operations-in-c-and-cuda/">Implementing Custom PyTorch Tensor Operations in C and CUDA</a>
+            </h2>
+        </div>
+        <div class="davidstutz-article-tags-alternative">
+            <a href="https://davidstutz.de/tag/c/"><span class="davidstutz-label davidstutz-label-primary">C</span></a>
+            <a href="https://davidstutz.de/tag/cuda/"><span class="davidstutz-label davidstutz-label-primary">CUDA</span></a>
+            <a href="https://davidstutz.de/tag/deep-learning/"><span class="davidstutz-label davidstutz-label-primary">DEEP LEARNING</span></a>
+            <a href="https://davidstutz.de/tag/pytorch/"><span class="davidstutz-label davidstutz-label-primary">PYTORCH</span></a>
+        </div>
+        <div class="davidstutz-article-excerpt">
+            <p><a href="https://pytorch.org/" target="_blank" rel="noopener noreferrer">PyTorch</a>, alongside <a href="https://www.tensorflow.org/" target="_blank" rel="noopener noreferrer">TensorFlow</a>, has become standard among deep learning researchers and practitioners. While PyTorch provides a large variety in terms of tensor operations or deep learning layers, some specialized operations still need to be implemented manually. In cases where runtime is crucial, this should be done in C or CUDA for supporting both CPU and GPU computation. In this article, I want to provide a simple example and framework for extending PyTorch with custom C and CUDA operations using <a href="https://cffi.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">CFFI</a> for Python and <a href="https://cupy.chainer.org/" target="_blank" rel="noopener noreferrer">CuPy</a>.</p>
+            <p>
+                <a href="https://davidstutz.de/implementing-custom-pytorch-tensor-operations-in-c-and-cuda/" class="pull-right btn btn-primary davidstutz-article-more">More ...</a>
+            </p>
+            <p class="clearfix"></p>
+        </div>
+    </div>
+</div>
+
+
+      <div class="davidstutz-article-container">
+
+
+
+
+            <div class="davidstutz-article">
+                <div class="davidstutz-article-date">
+                    MAY2020
+                </div>
+                <div class="davidstutz-article-above-header">
+                    <h3>ARTICLE</h3>
+                </div>
+                <div class="davidstutz-article-header">
+                    <h2>
+                        <a href="https://davidstutz.de/arxiv-pre-print-adversarial-training-against-location-optimized-adversarial-patches/">
+                            ArXiv Pre-Print “Adversarial Training against Location-Optimized Adversarial Patches”
+                        </a>
+                    </h2>
+                </div>
+                <div class="davidstutz-article-tags-alternative">
+                    <a href="https://davidstutz.de/tag/adversarial-machine-learning/"><span class="label label-primary">ADVERSARIAL MACHINE LEARNING</span></a>
+                    <a href="https://davidstutz.de/tag/computer-vision-2/"><span class="label label-primary">COMPUTER VISION</span></a>
+                    <a href="https://davidstutz.de/tag/deep-learning/"><span class="label label-primary">DEEP LEARNING</span></a>
+                    <a href="https://davidstutz.de/tag/publication/"><span class="label label-primary">PUBLICATION</span></a>
+                </div>
+                <div class="davidstutz-article-excerpt">
+                    <p>While robustness against imperceptible adversarial examples is well-studied, robustness against visible adversarial perturbations such as adversarial patches is poorly understood. In this pre-print, we present a practical approach to obtain adversarial patches while actively optimizing their location within the image. On Cifar10 and GTSRB, we show that adversarial training on these location-optimized adversarial patches improves robustness significantly while <i>not</i> reducing accuracy.</p>
+                    <p>
+                        <a href="https://davidstutz.de/arxiv-pre-print-adversarial-training-against-location-optimized-adversarial-patches/" class="pull-right btn btn-primary article-more">More ...</a>
+                    </p>
+                    <p class="clearfix"></p>
+                </div>
+            </div>
+        </div>
+
+
+</article>
       <article class="ANDREW-GIBIANSKY-blog-archives">
           <h1>
               <a href="https://andrew.gibiansky.com/blog/mathematics/cool-linear-algebra-singular-value-decomposition/">Cool Linear Algebra: Singular Value Decomposition</a>
