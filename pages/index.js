@@ -285,6 +285,7 @@ export default function Home() {
           </h1>
       </div>
 
+
       <p>
           I am a <b>research scientist at <a href="https://www.deepmind.com/" target="_blank" rel="noopener">Google DeepMind</a></b> interested in <b>making generative AI safe for everyone to use</b> through research on uncertainty estimation, watermarking, adversarial robustness, or out-of-distribution detection, among other topics. Previously, I focused on computer vision, including 3D reconstruction and image segmentation.
       </p>
